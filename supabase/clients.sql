@@ -1,5 +1,5 @@
 -- Tabla de clientes para GestiónPro React
--- Ejecutar en Supabase > SQL Editor. No modifica las tablas profiles ni products.
+-- Ejecutar en Supabase > SQL Editor. Solo crea la tabla clients; no modifica otras tablas del proyecto.
 
 create table if not exists public.clients (
   id          bigint generated always as identity primary key,
